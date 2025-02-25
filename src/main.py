@@ -61,7 +61,7 @@ def download_audio():
         messagebox.showerror("Error", f"An error occurred: {e}")
 
 root = tk.Tk()
-root.title("Media Downloader")
+root.title("OYDL - Media Downloader")
 root.resizable(False, False)
 root.configure(bg='#2d2d2d')
 
@@ -72,7 +72,7 @@ style.configure('TFrame', background='#2d2d2d')
 style.configure('TLabel', background='#2d2d2d', foreground='#ffffff', font=('Helvetica', 12))
 style.configure('TEntry', fieldbackground='#3d3d3d', foreground='#ffffff', font=('Helvetica', 10))
 style.configure('TButton', background='#3d3d3d', foreground='#ffffff', font=('Helvetica', 12, 'bold'))
-style.configure('TCombobox', fieldbackground='#3d3d3d', foreground='#ffffff', font=('Helvetica', 10))
+style.configure('TCombobox', fieldbackground='#3d3d3d', foreground='#000000', font=('Helvetica', 10))
 style.map('TButton', background=[('active', '#4d4d4d')])
 
 frame = ttk.Frame(root, padding="10")
